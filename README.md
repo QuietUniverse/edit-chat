@@ -15,4 +15,7 @@ A chatting application that enables users to communicate using simple document t
 2. Search for users by clicking the + button.
 3. Chat away :)
 
+### Link
+https://quietuniverse-edit-chat.netlify.app/
+
 &copy; All rights reserved
