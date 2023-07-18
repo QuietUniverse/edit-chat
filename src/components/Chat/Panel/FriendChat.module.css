@@ -1,0 +1,37 @@
+.layout {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 2rem 0.8rem;
+  background-color: var(--color-grey-dark-3);
+  border-radius: 0.4rem;
+  transition: all 0.3s ease-out;
+}
+
+.layout--active {
+  background-color: var(--color-grey-dark-1);
+}
+
+.layout,
+.layout * {
+  cursor: pointer;
+}
+
+.layout:hover {
+  background-color: var(--color-grey-dark-1);
+}
+
+.layout img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.layout span {
+  color: var(--color-primary-light);
+}
+
+.message-preview {
+  font-size: 1.4rem;
+  margin-top: 0.4rem;
+}

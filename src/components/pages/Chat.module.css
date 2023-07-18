@@ -1,0 +1,25 @@
+.layout {
+  height: max-content;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 3rem;
+}
+
+.container {
+  width: 70vw;
+  height: 80vh;
+  padding: 2rem 4.5rem 0;
+}
+
+main {
+  z-index: 1;
+  position: relative;
+  transition: transform 0.3s ease-out;
+}
+
+.centre-main {
+  position: absolute;
+}

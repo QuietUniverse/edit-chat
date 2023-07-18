@@ -1,0 +1,10 @@
+.container {
+  padding: 2rem 4.5rem;
+  height: max-content;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  position: relative;
+}

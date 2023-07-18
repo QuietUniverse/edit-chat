@@ -1,0 +1,40 @@
+.layout {
+  background-color: var(--color-grey-dark-3);
+  width: calc(max-content + 0.3rem);
+  padding: 0.8rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+.layout img {
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.logout,
+.logout svg,
+.logout svg use {
+  cursor: pointer;
+}
+
+.logout {
+  height: 3rem;
+  width: 3rem;
+  background-color: transparent;
+  border: none;
+  margin-left: 7rem;
+  justify-self: flex-end;
+}
+
+.logout svg {
+  fill: var(--color-primary);
+  transition: all 0.2s ease-out;
+}
+
+.logout:hover.logout svg {
+  fill: var(--color-primary-light);
+}

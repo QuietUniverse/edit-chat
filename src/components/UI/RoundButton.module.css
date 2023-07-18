@@ -1,0 +1,22 @@
+.btn,
+.btn svg,
+.btn svg use {
+  cursor: pointer;
+}
+
+.btn {
+  border: none;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.3rem 1rem rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--color-grey-light-1);
+  transition: all 0.3s ease-out;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-light);
+  fill: var(--color-grey-dark-2);
+}

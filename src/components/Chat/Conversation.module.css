@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 80%;
+  width: 100%;
+  position: relative;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.collapse {
+  height: 2rem;
+  width: 2rem;
+  position: fixed;
+  transform: translateX(-4rem) translateY(-3rem);
+}
+
+.collapse svg {
+  transform: rotate(180deg);
+}
+
+.not-collapsed svg {
+  transform: rotate(0);
+}

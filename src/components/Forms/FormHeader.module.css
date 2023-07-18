@@ -1,0 +1,10 @@
+.form-header {
+  text-transform: uppercase;
+  color: var(--color-grey-light-2);
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.form-header span {
+  font-size: 1.2rem;
+}

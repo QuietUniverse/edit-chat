@@ -1,0 +1,39 @@
+.layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
+  overflow: hidden;
+  background-color: rgba(10, 10, 10, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bouncer {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--color-grey-light-1),
+    var(--color-grey-light-2)
+  );
+  animation: bouncerAnimation 1s infinite ease-in-out;
+}
+
+@keyframes bouncerAnimation {
+  0% {
+    transform: translateY(2rem);
+  }
+
+  50% {
+    transform: translateY(-2rem);
+  }
+
+  100% {
+    transform: translateY(2rem);
+  }
+}

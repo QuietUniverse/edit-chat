@@ -1,0 +1,33 @@
+.formatter {
+  height: 3rem;
+  width: 3rem;
+  background-color: transparent;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--color-grey-light-2);
+  transition: all 0.2s ease-out;
+}
+
+.formatter,
+.formatter svg,
+.formatter svg use {
+  cursor: pointer;
+}
+
+.formatter:hover,
+.formatter-hover {
+  fill: var(--color-grey-light-1);
+}
+
+.stroke-only {
+  fill: none;
+  stroke: var(--color-grey-light-2);
+}
+
+.formatter:hover.stroke-only,
+.formatter-hover.stroke-only {
+  fill: none;
+  stroke: var(--color-grey-light-1);
+}

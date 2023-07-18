@@ -1,0 +1,57 @@
+.backdrop {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(8, 8, 8, 0.75);
+  -webkit-backdrop-filter: blur(1.5rem);
+  backdrop-filter: blur(1.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.users {
+  border-radius: 1rem;
+  background-color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 3rem 5rem;
+}
+
+.separator {
+  height: 10rem;
+  width: 0.3rem;
+  background-color: var(--color-grey-dark-4);
+  margin: 0 3rem;
+}
+
+.scroll-div {
+  max-height: 60vh;
+  overflow-y: scroll;
+  padding-right: 2rem;
+}
+
+.group {
+  height: 5rem;
+  width: 5rem;
+  fill: var(--color-primary-light);
+}
+
+.group * {
+  cursor: pointer;
+}
+
+.close {
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.close svg {
+  transform: rotate(45deg);
+}

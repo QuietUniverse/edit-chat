@@ -1,0 +1,38 @@
+.form-input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 0.2rem 0.2rem 0.2rem;
+  border-radius: 0 1.2rem 1.2rem 1.2rem;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--color-primary-light),
+    transparent
+  );
+  width: fill-available;
+}
+
+.form-input label {
+  font-size: 1.4rem;
+  color: var(--color-grey-dark-1);
+  cursor: pointer;
+  font-weight: 600;
+  padding-left: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+.form-input input {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0 1.2rem 1.2rem 1.2rem;
+  background-color: var(--color-primary-dark);
+  cursor: text;
+  color: var(--color-grey-light-1);
+  caret-color: var(--color-grey-light-1);
+}
+
+.form-input input:focus {
+  box-shadow: inset 0 0 0 0.2rem var(--color-primary);
+}

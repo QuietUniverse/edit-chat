@@ -1,0 +1,12 @@
+.panel {
+  height: 80vh;
+  background-color: var(--color-grey-dark-2);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  transform: translateX(0);
+}
+
+.hidden {
+  transform: translateX(40%);
+}
